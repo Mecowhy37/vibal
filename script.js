@@ -1,4 +1,4 @@
-document.ondomcontentloaded = function () {
+window.onload = function () {
   alert(
     "Due to google sheets migration, it is no longer possible to fetch json with songs titles and youtube IDs from my spreadsheet. For now its just a dummy interface waiting for a revive and becoming spotify extension. I'm sorry its no longer interactive"
   );
