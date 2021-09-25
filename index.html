@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vibal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/CSSRulePlugin.min.js"></script>
+    <script src="./CustomEase.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="">
+    <div class="BGcontainer">
+        <div id="BG">
+            <h1 class="logo">vibal</h1>
+        </div>
+    </div>
+
+    <button class="themeToggler">change theme</button>
+    <div class="godness">
+        <div class="face emotions">
+
+            <!-- <h2>emotions</h2> -->
+            <label class="">
+                <input type="checkbox" value="relax" />
+                <span id="emo"><strong>(､ﾝ)</strong></span>
+                <span id="text">relax</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="fawesome" />
+                <span id="emo"><strong>\(◠▽◠)/</strong>></span>
+                <span id="text">fawesome</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="butterflies" />
+                <span id="emo"><strong>(♥ ͡° ͜ʖ ͡°)</strong></span>
+                <span id="text">butterflies</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="lowkey" />
+                <span id="emo">(▀̿Ĺ̯▀̿*)</span>
+                <span id="text">lowkey</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="tipsy" />
+                <span id="emo">⊂(*◡*⊂ )∘˚˳°</span>
+                <span id="text">tipsy</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="horny" />
+                <span id="emo">ʕoᴥ<ʔ</span>
+                <span id="text">horny</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="coding" />
+                <span id="emo">(⌐⊙_⊙)</span>
+                <span id="text">coding</span>
+            </label>
+
+            <label class="">
+                <input type="checkbox" value="pissed" />
+                <span id="emo"><strong>ノ</strong>ಠ</strong>_ಠ<strong>ノ</strong></span>
+                <span id="text">pissed</span>
+            </label>
+
+            <label id="sad">
+                    <input type="checkbox" value="sad" />
+                    <span id="emo">( ཀ ʖ̯ ཀ)</span>
+                    <span id="text">sad</span>
+                <!-- <div class="roller">
+                    <div class="gora"></div>
+                    <div class="wall"></div>
+                    <div class="dol"></div>
+                </div> -->
+            </label>
+
+            <div class="count">
+                <div class="tick one">
+                    <!-- <p></p> -->
+                </div>
+                <div class="tick two">
+                    <!-- <p></p> -->
+                </div>
+                <div class="tick arrow">
+                    <p>&#10132;</p>
+                    <span id="joy">
+                        <p class="cfj">click for joy</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="face player">
+            <div class="highwin">
+                <div class="cover"></div>
+                <div class="whoplays">
+                    <div class="viewer">
+                        <div class="song h1">Floating</div>
+                    </div>
+                    <div class="artist">Bias</div>
+                </div>
+                <div class="controls">
+                    <div class="skip prev"></div>
+                    <div class="playpause">
+                        <input type="checkbox" value="None" id="playpause" name="check" />
+                        <label for="playpause" class="playlabel"></label>
+                    </div>
+                    <div class="skip next"></div>
+                </div>
+            </div>
+            <div class="actions">
+                <div class="toggler">
+                    <div class="view">
+                        <div class="wrapper">
+                            <div class="view1 h1">
+                               <div class="no1">open with</div>
+                            </div>
+                            <div class="view2 h1">
+                               <div class="no1">emotions</div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="action">
+                    <div class="view">
+                        <div class="wrapper">
+                            <div class="view1 h1">
+                               <div class="no1">(⌐⊙_⊙)</div>
+                               <div class="no2">(♥ ͡° ͜ʖ ͡°)</div>
+                            </div>
+                            <div class="view2 h1">
+                               <div class="no1">(▀̿Ĺ̯▀̿*)</div>
+                               <div class="no2">(¯﹃¯)</div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="overlay h1">
+                        <p>back to board</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="timing">
+                <div class="upper">
+                    <div class="numbers">
+                        <p id="now">0:23</p>
+                        <p id="ytc">1:54</p>
+                    </div>
+                    <div class="replay">
+                        <p>replay</p>
+                    </div>
+                </div>
+                <div class="slideContainer">
+                    <input type="range" min="0" max="180" id="slider" value="23">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
